@@ -1,0 +1,80 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.card {
+    border-radius: 8px;
+    transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.table th {
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.btn-group .btn-check:checked + .btn-outline-success {
+    background-color: #198754;
+    color: #fff;
+}
+
+.btn-group .btn-check:checked + .btn-outline-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.footer {
+    border-top: 1px solid #dee2e6;
+}
+
+.alert {
+    border-radius: 8px;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.card .table {
+    margin-bottom: 0;
+}
+
+.border-start {
+    border-left-width: 4px !important;
+}
+
+.img-thumbnail {
+    border-radius: 50%;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
